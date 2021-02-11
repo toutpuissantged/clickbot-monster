@@ -1,0 +1,1 @@
+#click bot @ monster

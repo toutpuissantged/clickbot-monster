@@ -1,4 +1,4 @@
-# Ziziworks
+# Mosters
 import os
 import sys
 
@@ -211,7 +211,7 @@ async def main():
 	elif answer == action[2]:
 		print(action[2] + " performed")
 		phone_number = sys.argv[1]
-        
+
 		if not os.path.exists("session"):
 			os.mkdir("session")
 	   

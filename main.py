@@ -1,6 +1,5 @@
 # Mosters
-import os
-import sys
+import os ,sys
 
 os.system('cls' if os.name=='nt' else 'clear')
 
@@ -33,12 +32,9 @@ color_ama(autoreset=True)
 ############################
 
 # WELCOME BLOCK
-print(Fore.MAGENTA + '		__      _____ _    ___ ___  __  __ ___ ')
-print(Fore.MAGENTA + '		\ \    / / __| |  / __/ _ \|  \/  | __|')
-print(Fore.MAGENTA + '		 \ \/\/ /| _|| |_| (_| (_) | |\/| | _| ')
-print(Fore.MAGENTA + '		  \_/\_/ |___|____\___\___/|_|  |_|___|\n' + Fore.RESET)
-print(Fore.RED + '   -                   Click Bot Monster v1.0                -' + Fore.RESET)
-print('')
+
+f = Figlet(font='bulbhead')
+print (f.renderText('click monster'))
 print(Fore.YELLOW + '   -               Git :' + Fore.RED +' https://github.com/toutpuissantged/' + Fore.WHITE +'' + Fore.YELLOW +'             -')
 # DESCRIPTION BLOCK
 print('\n		 Earn money using telegram bot.\n')
@@ -90,8 +86,7 @@ async def main():
 		# Start visiting the ads
 		@client.on(events.NewMessage(chats=url_channel, incoming=True))
 		async def visit_ads(event):
-		
-		
+			
 			original_update = event.original_update
 			if type(original_update)is not UpdateShortMessage:
 				if hasattr(original_update.message,'reply_markup') and type(original_update.message.reply_markup) is ReplyInlineMarkup:

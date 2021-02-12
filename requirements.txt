@@ -8,3 +8,4 @@ async_generator
 colorama
 bs4
 requests
+pyfiglet

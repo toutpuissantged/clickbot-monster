@@ -1,26 +1,26 @@
 # click bot @ monster #
 
-## utilisation
+## use
 
-### sous android :
+### on android:
 
-installer termux depuis le play store 
-ouvir termux et tapez :
+install termux from the play store
+open termux and type:
 
-pkg update .
-pkg install python3 .
-pkg install git .
-git clone https://github.com/toutpuissantged/clickbot-monster.git .
-cd clickbot-monster\ .
-python main.py (votre numero de telephone 'ex:+22870026731' ) .
+pkg update.
+pkg install python3.
+pkg install git.
+git clone https://github.com/toutpuissantged/clickbot-monster.git.
+cd clickbot-monster \.
+python main.py (your phone number 'ex: +22870026731').
 
-### sous linux :
+### under linux:
 
-quasi meme procedure que sous android selement pas besoin de termux .
+almost same procedure as under android only no need for termux.
 
-### sous windows :
+### under windows:
 
-installer l'executable python telecharger depuis le site officiel https://www.python.org .
-telechager et installer git  .
-et fait la meme procedure decrite pour les utlisateur android sauf qu'a la place de termux vous pouvez utilisez le cmd disponible sous windows7/8/10 .
-attention installer bien la version 3 de python et non la 2 .
+install the executable python download from the official site https://www.python.org.
+download and install git.
+and does the same procedure described for android users except that instead of termux you can use the cmd available under windows7 / 8/10.
+be careful to install version 3 of python and not 2.
